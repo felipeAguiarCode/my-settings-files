@@ -1,0 +1,109 @@
+{
+  //explorer configs
+  "explorer.compactFolders": false,
+  "explorer.autoReveal": false,
+
+  //workbench configs
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.colorTheme": "Andromeda Italic",
+  "workbench.iconTheme": "vscode-great-icons",
+
+  "workbench.colorCustomizations": {
+    "sideBar.foreground": "#e4e4e4"
+  },
+
+  //terminal integrated configs
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "terminal.integrated.defaultProfile.osx": "",
+  "terminal.integrated.gpuAcceleration": "off",
+
+  //debug console configs
+  "debug.console.fontSize": 16,
+
+  //editor configs
+    //"editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira code",
+  "editor.fontWeight": "600",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 20,
+  "editor.lineHeight": 25,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.accessibilityPageSize": 22,
+  "editor.rulers": [90, 120],
+
+  //window configs 
+  "window.zoomLevel": 1,
+
+
+  //material icons theme
+  "material-icon-theme.files.associations": {
+    ".*ts": "typescript",
+    "**.json": "json",
+    "*.bas": "Test-js",
+    "*.cls": "Test-jsx",
+    "fileName.ts": "angular",
+    "nodemon.json": "nodemon",
+    "*.xlsb": "table",
+    "*.xlsm": "table",
+    "*.component.html": "Angular",
+    "*.component.css": "Angular-component",
+    "*.guard.css": "Angular-guard",
+    "*.component.ts": "typescript",
+    "*.service.ts": "Angular-Service"
+  },
+
+  "material-icon-theme.folders.associations": {
+    "angular-src": "Angular",
+    "application": "app",
+    "app": "app",
+    "domain": "class",
+    "repositories": "mappings",
+    "factories": "Plugin",
+    "infra": "environment",
+    "seed": "Docker",
+    "WebApi": "Public",
+    "Infra": "Config",
+    "Infrastructure": "Config",
+    "Presentation": "Public",
+    "vba-files": "src"
+  },
+
+  // "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[html]": {
+  //   "editor.formatOnSave": false
+  // },
+  //  "[html]": {
+  //    "editor.defaultFormatter": "vscode.html-language-features"
+  //  },
+
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+
+  "files.associations": {
+    //"*.js": "javascriptreact"
+  },
+
+  "sync.gist": "a89714f4afa0296c545b8cca1fda51a9",
+  "settingsSync.ignoredSettings": [],
+  "settingsSync.ignoredExtensions": [],
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "omnisharp.path": "latest",
+  //"tabnine.experimentalAutoImports": true,
+
+
+  "glassit.alpha": 255
+}
