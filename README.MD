@@ -19,11 +19,12 @@ All my personal configs and settings files from my dev ambience PC.
 # Ambience Development (General)
 - **Editor Code**: [Visual Studio Code](https://code.visualstudio.com/)
 - **Vscode Theme**: [Andromeda Italic](https://github.com/EliverLara/Andromeda)
-- **My VsCode Settings**: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/Ambience%20Development/vsual-studio-code/settings/settings.json)
+- **My Vscode Settings**: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/Ambience%20Development/vsual-studio-code/settings/settings.json)
 - **Windows Subsystem for Linux**: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
+  - how to install: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 
-# Chrome Extesions
+# Chrome Extensions
 - **JSON Viewer**: [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 - **Octotree - GitHub code tree**: [Octotree - GitHub code tree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
 - **Dark Reader**: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en)
