@@ -19,9 +19,9 @@ All my personal configs and settings files from my dev ambience PC.
 # Ambience Development (General)
 - **Editor Code**: [Visual Studio Code](https://code.visualstudio.com/)
 - **Vscode Theme**: [Andromeda Italic](https://github.com/EliverLara/Andromeda)
-- **My Vscode Settings**: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/Ambience%20Development/vsual-studio-code/settings/settings.json)
+- **My Vscode Settings**: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/ambience-development/vsual-studio-code/settings/settings.json)
 - **Windows Subsystem for Linux**: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
-  - how to install: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
+  - how to install: [WSL2](https://github.com/felipeAguiarCode/my-settings-files/blob/main/ambience-development/wsl2-linux/how-to-install.md)
 
 
 # Chrome Extensions
