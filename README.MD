@@ -23,7 +23,7 @@ All my personal configs and settings files from my dev ambience PC.
 
 
 # Chrome Extesions
-- **JSON Viewer**: [JSON Viewer](hhttps://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+- **JSON Viewer**: [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 - **Octotree - GitHub code tree**: [Octotree - GitHub code tree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
 - **Dark Reader**: [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en)
 
