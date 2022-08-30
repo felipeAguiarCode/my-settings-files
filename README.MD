@@ -1,11 +1,7 @@
 <center>
 
-![main](screenshots/main.png)
-![power](screenshots/power.png)
-
 [![so](https://img.shields.io/badge/Windows-10+-373277.svg?style=for-the-badge&logo=microsoft&logoColor=white&colorA=2b303b&colorB=7cb7ff)](https://www.microsoft.com/pt-br)
 [![version](https://img.shields.io/badge/Version-1.1-373277.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://www.microsoft.com/pt-br)
-https://github.com/felipeAguiarCode/
 
 </center>
 
