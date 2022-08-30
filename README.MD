@@ -19,6 +19,7 @@ All my personal configs and settings files from my dev ambience PC.
 # Ambience Development (General)
 - **Editor Code**: [Visual Studio Code](https://code.visualstudio.com/)
 - **Vscode Theme**: [Andromeda Italic](https://github.com/EliverLara/Andromeda)
+- **My VsCode Settings**: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/Ambience%20Development/vsual-studio-code/settings/settings.json)
 - **Windows Subsystem for Linux**: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
 
 
