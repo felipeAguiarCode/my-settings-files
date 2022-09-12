@@ -26,6 +26,8 @@ All my personal configs and settings files from my dev ambience PC.
   - my vscode settings: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/ambience-development/vsual-studio-code/settings/settings.json)
 - **Windows Subsystem for Linux**: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
   - how to install: [WSL2](https://github.com/felipeAguiarCode/my-settings-files/blob/main/ambience-development/wsl2-linux/how-to-install.md)
+  - WSL2 Terminal: [Zsh + Oh My Zsh](https://github.com/felipeAguiarCode/my-settings-files/blob/main/ambience-development/wsl2-linux/wsl2-terminal-oh-my-zsh/how-to-install-oh-my-zsh.md)
+  - WSL2 Terminal Theme: [Spaceship]
 
 
 # Chrome Extensions
