@@ -41,7 +41,7 @@
         "list": 
         [
             {
-                
+                "colorScheme": "retrowave",
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
@@ -51,8 +51,7 @@
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "opacity": 65,
-                "useAcrylic": false,
-                "colorScheme": "retrowave" //"Dracula",
+                "useAcrylic": false
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -73,97 +72,49 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": true,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{59b72ad2-09f7-55ec-af87-65d062af8472}",
-                "hidden": false,
-                "name": "Ubuntu 20.04.5 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
-                "startingDirectory": null
-            },
-            {
-                // Make changes here to the powershell.exe profile.
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44ba}",
-                "name": "Coder",
-                "commandline": "powershell.exe -NoLogo -NoExit",
-                "hidden": false,
+                "backgroundImage": "C:\\Users\\Felipe\\Pictures\\bgs\\terminal-bg.png",
+                "backgroundImageOpacity": 0.20000000000000001,
                 "colorScheme": "retrowave",
+                "commandline": "powershell.exe -NoLogo -NoExit",
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "size": 20,
-                    "face": "Cascadia Code PL"
+                    "face": "JetBrainsMonoNL NF",
+                    "size": 20
                 },
-                //"icon": "xxxxxxxxxxxxxxxxxxxxxx",
-                "backgroundImage":
-                "C:\\terminal\\customizations-settings\\terminal-bg.png",
-                "backgroundImageOpacity": 0.2,
-                "useAcrylic": true,
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44ba}",
+                "hidden": false,
+                "name": "Coder",
                 "opacity": 80,
-                "startingDirectory": "C:\\WWW"
-          }
+                "startingDirectory": "C:\\WWW",
+                "useAcrylic": true
+            }
         ]
     },
     "schemes": 
     [
         {
-            "name": "Blue Matrix",
+            "background": "#1D2342",
             "black": "#101116",
-            "red": "#ff5680",
-            "green": "#00ff9c",
-            "yellow": "#fffc58",
-            "blue": "#00b0ff",
-            "purple": "#d57bff",
-            "cyan": "#76c1ff",
-            "white": "#c7c7c7",
+            "blue": "#00B0FF",
             "brightBlack": "#686868",
-            "brightRed": "#ff6e67",
-            "brightGreen": "#5ffa68",
-            "brightYellow": "#fffc67",
-            "brightBlue": "#6871ff",
-            "brightPurple": "#d682ec",
-            "brightCyan": "#60fdff",
-            "brightWhite": "#ffffff",
-            "background": "#1d2342",
-            "foreground": "#b8ffe1"
-        },
-        {
-            // this theme created and commented for powershell
-            // based off of 1984 unbolded vs code theme
-            "name" : "retrowave",
-            // entire background
-            "background" : "#070825",
-            // default text
-            "foreground" : "#46BDFF",
-            //quoted values
-            "cyan" : "#df81fc",
-            // commands
-            "brightYellow" : "#ffffff",
-            // parameters
-            "brightBlack" : "#FF16B0",
-            // tokens like if, true, false
-            "brightGreen" : "#fcee54",
-            //comments
-            "green" : "#929292",
-            //errors
-            "brightRed" : "#f85353",
-            // attributes like ValueFromPipeline or ::Whatever
-            "brightWhite" : "#ffffff",
-        
-            // other or unknown
-            "blue" : "#46BDFF",
-            "brightBlue" : "#46BDFF",
-            "brightCyan" : "#ff901f",
-            "brightPurple" : "#FF92DF",
-            "purple" : "#FF92DF",
-            "red" : "#FF16B0",
-            "white" : "#FFFFFF",
-            "black" : "#181A1F",
-            "yellow" : "#fcee54"
+            "brightBlue": "#6871FF",
+            "brightCyan": "#60FDFF",
+            "brightGreen": "#5FFA68",
+            "brightPurple": "#D682EC",
+            "brightRed": "#FF6E67",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFC67",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#76C1FF",
+            "foreground": "#B8FFE1",
+            "green": "#00FF9C",
+            "name": "Blue Matrix",
+            "purple": "#D57BFF",
+            "red": "#FF5680",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C7C7C7",
+            "yellow": "#FFFC58"
         },
         {
             "background": "#0C0C0C",
@@ -440,6 +391,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#070825",
+            "black": "#181A1F",
+            "blue": "#46BDFF",
+            "brightBlack": "#FF16B0",
+            "brightBlue": "#46BDFF",
+            "brightCyan": "#FF901F",
+            "brightGreen": "#FCEE54",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#F85353",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFFF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#DF81FC",
+            "foreground": "#46BDFF",
+            "green": "#929292",
+            "name": "retrowave",
+            "purple": "#FF92DF",
+            "red": "#FF16B0",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FCEE54"
         }
     ]
 }
