@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config 'C:\terminal\customizations-settings\oh-my-posh-theme.json' | Invoke-Expression
