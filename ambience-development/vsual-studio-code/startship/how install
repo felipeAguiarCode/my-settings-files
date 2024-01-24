@@ -1,0 +1,5 @@
+
+#### 1. create toml file
+
+mkdir -p ~/.config && touch ~/.config/starship.toml
+
