@@ -1,109 +1,123 @@
 {
-  //explorer configs
   "explorer.compactFolders": false,
   "explorer.autoReveal": false,
-
-  //workbench configs
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.untitled.hint": "hidden",
-  "workbench.colorTheme": "Andromeda Italic",
-  "workbench.iconTheme": "vscode-great-icons",
-
-  "workbench.colorCustomizations": {
-    "sideBar.foreground": "#e4e4e4"
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "ormconfig.json": "ormconfig.sample.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 
-  //terminal integrated configs
+  //terminal
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.fontFamily": "Operator Mono",
-  "terminal.integrated.defaultProfile.osx": "",
   "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  //"terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+  "terminal.integrated.cwd": "${workspaceFolder}/",
 
-  //debug console configs
-  "debug.console.fontSize": 16,
-
-  //editor configs
-    //"editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
+  //editor
   "editor.fontFamily": "Fira code",
   "editor.fontWeight": "600",
   "editor.fontLigatures": true,
-  "editor.fontSize": 20,
-  "editor.lineHeight": 25,
+  "editor.fontSize": 20, //22,
+  "editor.lineHeight": 1.6,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "editor.renderLineHighlight": "line",
   "editor.accessibilityPageSize": 22,
-  "editor.rulers": [90, 120],
+  "editor.tabCompletion": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  // "editor.scrollbar.vertical": "hidden",
+  // "editor.scrollbar.horizontal": "hidden",
+  "editor.rulers": [70, 120],
 
-  //window configs 
+  //window
+  "window.title": "${rootName}${separator}", //${activeEditorMedium}",
   "window.zoomLevel": 1,
+  "window.menuBarVisibility": "compact",
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
 
-
-  //material icons theme
-  "material-icon-theme.files.associations": {
-    ".*ts": "typescript",
-    "**.json": "json",
-    "*.bas": "Test-js",
-    "*.cls": "Test-jsx",
-    "fileName.ts": "angular",
-    "nodemon.json": "nodemon",
-    "*.xlsb": "table",
-    "*.xlsm": "table",
-    "*.component.html": "Angular",
-    "*.component.css": "Angular-component",
-    "*.guard.css": "Angular-guard",
-    "*.component.ts": "typescript",
-    "*.service.ts": "Angular-Service"
+  //workbench
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.labelFormat": "default",
+  // "workbench.editor.labelFormat": "short",
+  "workbench.colorCustomizations": {
+    "sideBar.foreground": "#e4e4e4"
   },
+  "workbench.colorTheme": "Hack The Box",
+  "workbench.editorAssociations": {},
 
-  "material-icon-theme.folders.associations": {
-    "angular-src": "Angular",
-    "application": "app",
-    "app": "app",
-    "domain": "class",
-    "repositories": "mappings",
-    "factories": "Plugin",
-    "infra": "environment",
-    "seed": "Docker",
-    "WebApi": "Public",
-    "Infra": "Config",
-    "Infrastructure": "Config",
-    "Presentation": "Public",
-    "vba-files": "src"
+  "[python]": {
+    "editor.formatOnType": true
   },
-
-  // "editor.formatOnSave": true,
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true
-  // },
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "[html]": {
-  //   "editor.formatOnSave": false
-  // },
-  //  "[html]": {
-  //    "editor.defaultFormatter": "vscode.html-language-features"
-  //  },
-
-  // "[javascriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnType": false
+  },
+  "symbols.folders.associations": {
+    "backend": "folder-gray",
+    "frontend": "folder-gray-code",
+    ".docs": "folder-gray-outline",
+    "entities": "folder-assets",
+    "infra": "folder-app",
+    "schemas": "folder-purple",
+    "controllers": "folder-yellow",
+    "services": "folder-yellow",
+    "hooks": "folder-yellow",
+    "factories": "folder-yellow",
+    "repositories": "folder-yellow",
+    "routes": "folder-yellow"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "symbols.files.associations": {
+    "*.txt": "text",
+    "*.todo": "text"
+  },
+  "debug.console.fontSize": 16,
   "files.associations": {
+    "*.css": "css",
+    "css": "css",
+    "*.component.css": "css"
     //"*.js": "javascriptreact"
   },
-
-  "sync.gist": "",
+  // "sync.gist": "a89714f4afa0296c545b8cca1fda51a9",
   "settingsSync.ignoredSettings": [],
   "settingsSync.ignoredExtensions": [],
-
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
   "liveServer.settings.donotShowInfoMsg": true,
   "omnisharp.path": "latest",
-  //"tabnine.experimentalAutoImports": true,
+  "glassit.alpha": 230,
+  //snippets
 
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript"
+    // "css": "css"
+  },
+  "liveServer.settings.donotVerifyTags": true,
 
-  "glassit.alpha": 255
+  //minimalist
+  "breadcrumbs.filePath": "off",
+  "breadcrumbs.enabled": false,
+  "outline.icons": true,
+  "git.openRepositoryInParentFolders": "never"
 }
