@@ -1,7 +1,12 @@
+<p align="center">
+  <img src=".assets/header.png" alt="Header Image" style="border-radius: 10px;">
+</p>
+
+
 <center>
 
-[![so](https://img.shields.io/badge/Windows-10+-373277.svg?style=for-the-badge&logo=microsoft&logoColor=white&colorA=2b303b&colorB=7cb7ff)](https://www.microsoft.com/pt-br)
-[![version](https://img.shields.io/badge/Version-1.1-373277.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://www.microsoft.com/pt-br)
+[![so](https://img.shields.io/badge/Windows-11+-373277.svg?style=for-the-badge&logo=microsoft&logoColor=white&colorA=2b303b&colorB=7cb7ff)](https://www.microsoft.com/pt-br)
+[![version](https://img.shields.io/badge/Version-1.2-373277.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://www.microsoft.com/pt-br)
 
 </center>
 
@@ -21,6 +26,7 @@ All my personal configs and settings files from my dev ambience PC.
   - icons-set: [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols)
   - editor font: [FireCode](https://github.com/tonsky/FiraCode)
   - terminal font: [Operator Mono](https://github.com/keyding/Operator-Mono)
+  - shell prompt tool: [Starship](https://starship.rs/)
   - menu appearance: [Fluent UI for VSCode](https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.fluent-ui-vscode)
   - my vscode settings: [Settings.json](https://github.com/felipeAguiarCode/my-settings-files/blob/main/ambience-development/vsual-studio-code/settings/settings.json)
 
