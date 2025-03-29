@@ -3,3 +3,5 @@
 
 mkdir -p ~/.config && touch ~/.config/starship.toml
 
+### 2. to edit
+%USERPROFILE%\.config\starship.toml

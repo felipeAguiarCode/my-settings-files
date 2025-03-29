@@ -1,8 +1,11 @@
+add_newline = true
+
+
 [nodejs]
 version_format = 'v${raw}'
 detect_extensions = ['js', 'mjs', 'cjs', 'ts', 'mts', 'cts']	
 detect_files = ['package.json', '.node-version']
-format = 'via [🤖 $version](bold green) '
+format = 'via [🟩 $version](bold green) '
 
 [dotnet]
 version_format = 'v${raw}'
@@ -17,11 +20,6 @@ format = 'via [🦕 $version](green bold) '
 detect_files = ['deno.json', 'deno.jsonc', 'mod.ts', 'mod.js', 'deps.ts', 'deps.js']
 symbol = '🦕 '
 
-[bun]
-version_format = 'v${raw}'
-format = 'via [🍞 $version](bold green) '
-symbol = '🍞 '
-
 [character]
 success_symbol = "[➜](bold green) "
 error_symbol = "[✗](bold red) "
@@ -35,7 +33,6 @@ format = "on [$symbol$branch ]($style) "
 [git_commit]
 commit_hash_length = 8
 style = "bold white"
-
 
 [git_status]
 conflicted = "⚔️ "
